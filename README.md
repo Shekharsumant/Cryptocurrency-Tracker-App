@@ -1,1 +1,3 @@
 # Cryptocurrency-Tracker-App
+The Cryptocurrency Tracker App is designed to track and display real-time data on various cryptocurrencies. It fetches dynamic data from the Coin Gecko API and shows changes in rates for different cryptocurrencies. Users can view the current price, market cap, available supply, and trading volume of each cryptocurrency. They can also search for individual coins and obtain detailed information about them.
+The data flows from the Coin Gecko API to the top-level component, where I manage the global state using the Context API's createContext and useContext hooks. The global state contains the fetched cryptocurrency data and other relevant information. This state is then provided to various components using the Context.Provider component.
